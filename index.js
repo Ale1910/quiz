@@ -1,95 +1,95 @@
 const perguntas = [
-    {
-      pergunta: "O que é JavaScript?",
-      respostas: [
-        "Uma linguagem de programação para desenvolvimento mobile",
-        "Uma biblioteca de design de páginas web",
-        "Uma linguagem de programação de alto nível",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual é a função do operador '===' em JavaScript?",
-      respostas: [
-        "Comparação de valor e tipo",
-        "Concatenação de strings",
-        "Atribuição de valor",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "O que é o DOM em JavaScript?",
-      respostas: [
-        "Um modelo de objetos para manipulação de documentos HTML e XML",
-        "Uma função para criar elementos gráficos em uma página web",
-        "Uma linguagem de estilo para páginas web",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual é a finalidade do método 'querySelector'?",
-      respostas: [
-        "Selecionar todos os elementos da página",
-        "Selecionar um elemento com base em sua classe",
-        "Selecionar um elemento com base em sua tag",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "O que é um closure em JavaScript?",
-      respostas: [
-        "Uma função que não tem acesso a variáveis externas",
-        "Um tipo de estrutura condicional",
-        "Um bloco de código executado assincronamente",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Como se declara uma variável em JavaScript?",
-      respostas: [
-        "let myVar = 10;",
-        "const myVar = 'Hello';",
-        "var myVar = true;",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual é a principal diferença entre 'let' e 'const'?",
-      respostas: [
-        "let é utilizado para variáveis constantes, enquanto const é utilizado para variáveis mutáveis",
-        "const é utilizado para variáveis que não podem ser modificadas, enquanto let permite reatribuição",
-        "Não há diferença, ambos são utilizados da mesma forma",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "O que é o JSON em JavaScript?",
-      respostas: [
-        "Um formato de dados para representar objetos e estruturas de dados",
-        "Um método para executar operações matemáticas",
-        "Uma função para criar elementos HTML dinamicamente",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual é a função do método 'map' em arrays?",
-      respostas: [
-        "Filtrar elementos de um array com base em uma condição",
-        "Mapear todos os elementos do array para um novo array com base em uma função",
-        "Ordenar os elementos do array em ordem alfabética",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "O que é o evento 'click' em JavaScript?",
-      respostas: [
-        "Um evento que ocorre quando a página é carregada",
-        "Um evento que ocorre quando o mouse é movido sobre um elemento",
-        "Um evento que ocorre quando um elemento é clicado",
-      ],
-      correta: 2
-    },
-  ];
+  {
+    pergunta: "Em qual ano foi ao ar a novela 'Avenida Brasil'?",
+    respostas: [
+      "2012",
+      "2014",
+      "2016",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Quem foi o autor da novela 'Senhora do Destino'?",
+    respostas: [
+      "Aguinaldo Silva",
+      "Gilberto Braga",
+      "Manoel Carlos",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual atriz interpretou a personagem 'Helena' na novela 'Laços de Família'?",
+    respostas: [
+      "Regina Duarte",
+      "Giovanna Antonelli",
+      "Vera Fischer",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual novela abordou a temática do cangaço, contando a história de Maria Bonita e Lampião?",
+    respostas: [
+      "Cordel Encantado",
+      "O Bem-Amado",
+      "Meu Pedacinho de Chão",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Em 'Por Amor', qual era o nome da personagem interpretada por Regina Duarte?",
+    respostas: [
+      "Helena",
+      "Clara",
+      "Maria Eduarda",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Quem foi o autor da novela 'Roque Santeiro'?",
+    respostas: [
+      "Aguinaldo Silva",
+      "Gilberto Braga",
+      "Dias Gomes",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual novela foi inspirada na obra 'Dona Beija - A Feiticeira do Araguaia'?",
+    respostas: [
+      "Pantanal",
+      "O Rei do Gado",
+      "Mulheres de Areia",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Em 'Cheias de Charme', qual era a profissão das protagonistas Cida, Rosário e Penha?",
+    respostas: [
+      "Advogadas",
+      "Empresárias",
+      "Empregadas domésticas",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual novela abordou o tema da clonagem humana?",
+    respostas: [
+      "O Clone",
+      "Amor à Vida",
+      "A Viagem",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Em 'Tieta', qual era o nome da cidade onde se passava a trama?",
+    respostas: [
+      "Santana do Agreste",
+      "São Paulo",
+      "Salvador",
+    ],
+    correta: 0
+  },
+];
   
   const quiz = document.querySelector('#quiz')
   const template = document.querySelector('template')
